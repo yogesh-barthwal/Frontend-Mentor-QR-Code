@@ -1,0 +1,43 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    margin: 100px auto 100px;
+}
+.code img{
+    border-radius: 10px;
+}
+.content{
+    text-align: center;
+    font-size: 15px;
+    /* font-family: 'BhuTuka Expanded One', cursive;
+
+    font-family: 'Libre Baskerville', serif;
+
+    font-family: 'Nanum Pen Script', cursive; */
+
+    font-family: 'Outfit', sans-serif;
+
+    /* font-family: 'Roboto', sans-serif; */
+}
+.content h2{
+    font-weight: bold;
+}
+.content p{
+    color: hsl(220, 15%, 55%);
+}
