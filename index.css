@@ -21,6 +21,7 @@ body {
 }
 .code img{
     border-radius: 10px;
+    /* width:; */
 }
 .content{
     text-align: center;
